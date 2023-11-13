@@ -41,14 +41,6 @@ If this PR title is just not enough to capture what a user should know about thi
 
 # v0.0.4 (Mon Nov 13 2023)
 
-### Release Notes
-
-#### npm pkg fix ([#7](https://github.com/kamatte-me/npm-sandbox/pull/7))
-
-<!-- If this PR title is just not enough to capture what a user should know about this PR, you can put extra release notes. -->
-
----
-
 #### 🐛 Bug Fix
 
 - npm pkg fix [#7](https://github.com/kamatte-me/npm-sandbox/pull/7) ([@kamatte-me](https://github.com/kamatte-me))
