@@ -6,7 +6,7 @@
   "homepage": "https://github.com/kamatte-me/npm-sandbox#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kamatte-me/npm-sandbox.git"
+    "url": "git+https://github.com/kamatte-me/npm-sandbox.git"
   },
   "license": "MIT",
   "author": "kamatte-me",
