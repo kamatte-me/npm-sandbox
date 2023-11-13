@@ -1,3 +1,19 @@
+# v0.0.6 (Mon Nov 13 2023)
+
+#### 🐛 Bug Fix
+
+- Replace auto config file: `auto.config.cts` -> `.autorc.json` [#11](https://github.com/kamatte-me/npm-sandbox/pull/11) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### 🏠 Internal
+
+- fix: PR template [#10](https://github.com/kamatte-me/npm-sandbox/pull/10) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### Authors: 1
+
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.0.5 (Mon Nov 13 2023)
 
 ### Release Notes
