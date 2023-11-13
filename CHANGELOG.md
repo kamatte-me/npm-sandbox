@@ -1,3 +1,28 @@
+# v0.0.5 (Mon Nov 13 2023)
+
+### Release Notes
+
+#### auto `released` plugin test ([#9](https://github.com/kamatte-me/npm-sandbox/pull/9))
+
+If this PR title is just not enough to capture what a user should know about this PR, you can put extra release notes.
+-->
+
+---
+
+#### 🐛 Bug Fix
+
+- auto `released` plugin test [#9](https://github.com/kamatte-me/npm-sandbox/pull/9) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### 🏠 Internal
+
+- fix: PR template [#8](https://github.com/kamatte-me/npm-sandbox/pull/8) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### Authors: 1
+
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.0.4 (Mon Nov 13 2023)
 
 ### Release Notes
