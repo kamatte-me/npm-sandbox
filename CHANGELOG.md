@@ -1,3 +1,15 @@
+# v0.0.7 (Mon Nov 13 2023)
+
+#### 🐛 Bug Fix
+
+- Manually edit CHANGELOG test [#12](https://github.com/kamatte-me/npm-sandbox/pull/12) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### Authors: 1
+
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.0.6 (Mon Nov 13 2023)
 
 #### 🐛 Bug Fix
