@@ -1,0 +1,69 @@
+{
+  "name": "@kamatte-me/npm-sandbox",
+  "version": "0.0.0",
+  "description": "My sandbox project",
+  "keywords": [],
+  "homepage": "https://github.com/kamatte-me/npm-sandbox#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamatte-me/npm-sandbox.git"
+  },
+  "license": "MIT",
+  "author": "kamatte-me",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      },
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier . --check",
+    "prettier:fix": "prettier . --write",
+    "publint": "publint",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "@vercel/style-guide": "5.1.0",
+    "eslint": "8.53.0",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "eslint-plugin-unused-imports": "3.0.0",
+    "eslint-plugin-vitest": "0.3.9",
+    "prettier": "3.0.3",
+    "publint": "0.2.5",
+    "typescript": "5.2.2",
+    "vite": "4.5.0",
+    "vite-plugin-dts": "3.6.3",
+    "vitest": "0.34.6"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.4.x"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "packageManager": "pnpm@8.10.3",
+  "engines": {
+    "node": ">=10.3.x"
+  }
+}
