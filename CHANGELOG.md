@@ -1,3 +1,15 @@
+# v0.0.11 (Wed Nov 15 2023)
+
+#### 🐛 Bug Fix
+
+- Protection rule release test 2 [#16](https://github.com/kamatte-me/npm-sandbox/pull/16) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### Authors: 1
+
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.0.9 (Wed Nov 15 2023)
 
 #### 🐛 Bug Fix
