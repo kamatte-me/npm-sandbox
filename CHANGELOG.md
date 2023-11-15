@@ -1,3 +1,15 @@
+# v0.0.15 (Wed Nov 15 2023)
+
+#### 🐛 Bug Fix
+
+- Mod release commit author to github actions bot [#20](https://github.com/kamatte-me/npm-sandbox/pull/20) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### Authors: 1
+
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.0.14 (Wed Nov 15 2023)
 
 #### 🐛 Bug Fix
