@@ -1,12 +1,17 @@
 {
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
-  extends: ['config:js-lib', 'schedule:daily'],
+  extends: ['config:js-lib'],
   timezone: 'Asia/Tokyo',
+  schedule: ['after 5am', 'before 9am'],
   prHourlyLimit: 0,
   labels: ['dependencies'],
   separateMajorMinor: true,
   automerge: true,
   packageRules: [
+    {
+      matchSourceUrls: ['https://github.com/intuit/auto'],
+      groupName: 'auto monorepo',
+    },
     {
       matchUpdateTypes: ['major'],
       automerge: false,
