@@ -1,3 +1,15 @@
+# v0.0.14 (Wed Nov 15 2023)
+
+#### 🐛 Bug Fix
+
+- Setup auto `protected-branch` plugin [#18](https://github.com/kamatte-me/npm-sandbox/pull/18) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### Authors: 1
+
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.0.11 (Wed Nov 15 2023)
 
 #### 🐛 Bug Fix
