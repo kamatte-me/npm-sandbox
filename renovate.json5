@@ -8,6 +8,10 @@
   automerge: true,
   packageRules: [
     {
+      matchSourceUrls: ['https://github.com/intuit/auto'],
+      groupName: 'auto monorepo',
+    },
+    {
       matchUpdateTypes: ['major'],
       automerge: false,
     },
