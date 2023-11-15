@@ -1,3 +1,20 @@
+# v0.0.8 (Wed Nov 15 2023)
+
+#### 🐛 Bug Fix
+
+- Remove auto plugins `all-contributors`, `first-time-contributor` [#14](https://github.com/kamatte-me/npm-sandbox/pull/14) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): update pnpm to v8.10.5 [#13](https://github.com/kamatte-me/npm-sandbox/pull/13) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.0.7 (Mon Nov 13 2023)
 
 #### 🐛 Bug Fix
