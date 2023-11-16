@@ -1,3 +1,15 @@
+# v0.2.0 (Thu Nov 16 2023)
+
+#### 🚀 Enhancement
+
+- Fix README format [#26](https://github.com/kamatte-me/npm-sandbox/pull/26) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### Authors: 1
+
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.1.0 (Thu Nov 16 2023)
 
 ### Release Notes
