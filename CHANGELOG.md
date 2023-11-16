@@ -1,3 +1,29 @@
+# v0.1.0 (Thu Nov 16 2023)
+
+### Release Notes
+
+#### Update README ([#24](https://github.com/kamatte-me/npm-sandbox/pull/24))
+
+Add `Getting Started` Section
+
+---
+
+#### 🚀 Enhancement
+
+- Update README [#24](https://github.com/kamatte-me/npm-sandbox/pull/24) ([@kamatte-me](https://github.com/kamatte-me))
+- chore(deps): update dependency vite to v5 [#23](https://github.com/kamatte-me/npm-sandbox/pull/23) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### 🏠 Internal
+
+- Modify renovate config [#22](https://github.com/kamatte-me/npm-sandbox/pull/22) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.0.15 (Wed Nov 15 2023)
 
 #### 🐛 Bug Fix
