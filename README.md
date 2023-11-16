@@ -21,7 +21,7 @@ Build ESM / CJS package with TypeScript.
 1. Create a new GitHub repository
 2. Download this repository
 3. Create an empty commit and then push
-   ```sh
+   ```shell
    git init
    git commit --allow-empty --allow-empty-message -m ""
    git branch -M main
@@ -48,7 +48,7 @@ Build ESM / CJS package with TypeScript.
 8. Update [`LICENSE`](./LICENSE)
 9. Remove [`CHANGELOG.md`](./CHANGELOG.md)
 10. Push to GitHub
-    ```
+    ```shell
     git add --all
     git commit -m "first commit"
     git push
@@ -84,13 +84,11 @@ Build ESM / CJS package with TypeScript.
     - [Renovate](https://github.com/settings/installations/32087651)
     - [renovate-approve](https://github.com/settings/installations/32308587)
 14. Create labels for auto
-    ```sh
+    ```shell
     GH_TOKEN=<Your GitHub Personal Access Token> pnpm auto create-labels
     ```
 15. **DEVELOP YOUR LIBRARY**
     - Familiarize yourself with the [auto](https://intuit.github.io/auto/) release workflow release workflow
 16. Publish 🎉
-    ```sh
     1. Revert the release workflow changes
     2. PR and Merge the reverted changes into the `main` branch
-    ```
