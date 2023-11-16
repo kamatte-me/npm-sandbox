@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@auto-it/protected-branch": "11.0.4",
-    "@types/node": "20.9.0",
+    "@types/node": "20.9.1",
     "@vercel/style-guide": "5.1.0",
     "auto": "11.0.4",
     "eslint": "8.53.0",
