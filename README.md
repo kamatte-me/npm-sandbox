@@ -14,6 +14,7 @@ Build ESM / CJS package with TypeScript.
 - Renovate
 - GitHub Actions
 - [auto](https://github.com/intuit/auto)
+- [publint](https://publint.dev/)
 
 ## Getting Started 🚀
 
