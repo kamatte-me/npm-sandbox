@@ -1,3 +1,21 @@
+# v0.2.1 (Fri Nov 17 2023)
+
+#### 🐛 Bug Fix
+
+- Update README.md [#30](https://github.com/kamatte-me/npm-sandbox/pull/30) ([@kamatte-me](https://github.com/kamatte-me))
+- Prettier ignore CHANGELOG.md [#29](https://github.com/kamatte-me/npm-sandbox/pull/29) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): update dependency @types/node to v20.9.1 [#28](https://github.com/kamatte-me/npm-sandbox/pull/28) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.2.0 (Thu Nov 16 2023)
 
 #### 🚀 Enhancement
