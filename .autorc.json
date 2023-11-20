@@ -6,6 +6,12 @@
         "requiredStatusChecks": ["test", "lint", "typecheck", "build"]
       }
     ],
+    [
+      "omit-commits",
+      {
+        "subject": ["chore(deps-dev):"]
+      }
+    ],
     "npm",
     "released"
   ],
