@@ -36,8 +36,7 @@ Build ESM / CJS package with TypeScript.
    - `author`
 5. Update [`README.md`](./README.md)
 6. Update [`LICENSE`](./LICENSE)
-7. Remove [`CHANGELOG.md`](./CHANGELOG.md)
-8. Push to GitHub
+7. Push to GitHub
    ```shell
    git init
    git add --all
@@ -46,15 +45,15 @@ Build ESM / CJS package with TypeScript.
    git remote add origin git@github.com:<user>/<repo>.git
    git push -u origin main
    ```
-9. Create an initial GitHub release ([for auto](https://github.com/intuit/auto/issues/2021#issuecomment-906116717))
+8. Create an initial GitHub release ([for auto](https://github.com/intuit/auto/issues/2021#issuecomment-906116717))
    - Tag & Release Title: `v0.0.0`
-10. Generate new tokens
-    - GitHub [Personal Access Token (classic)](https://github.com/settings/tokens/new)
-      - Select scopes
-        - `repo`
-    - NPM Granular Access Token
-      - Permissions: `Read and write`
-11. Configure GitHub repository `Settings`
+9. Generate new tokens
+   - GitHub [Personal Access Token (classic)](https://github.com/settings/tokens/new)
+     - Select scopes
+       - `repo`
+   - NPM Granular Access Token
+     - Permissions: `Read and write`
+10. Configure GitHub repository `Settings`
     - `Actions` > `General` > `Workflow permissions`
       - Enable `Read and write permissions`
       - Enable `Allow GitHub Actions to create and approve pull requests`
@@ -75,16 +74,16 @@ Build ESM / CJS package with TypeScript.
       - For the `next` branch:
         - Use the same settings as the main branch
         - Enable `Allow deletions`
-12. Install the following GitHub Apps
+11. Install the following GitHub Apps
     - [Renovate](https://github.com/settings/installations/32087651)
     - [renovate-approve](https://github.com/settings/installations/32308587)
-13. Create labels for auto
+12. Create labels for auto
     ```shell
     GH_TOKEN=<Your GitHub Personal Access Token> pnpm auto create-labels
     ```
-14. **DEVELOP YOUR LIBRARY**
+13. **DEVELOP YOUR LIBRARY**
     - Familiarize yourself with the [auto](https://intuit.github.io/auto/) release workflow release workflow
-15. First Publish 🎉
+14. First Publish 🎉
     1. Revert the release workflow changes
     2. PR and Merge the reverted changes into the `main` branch
-16. Remove the `v0.0.0` tag
+15. Remove the `v0.0.0` tag

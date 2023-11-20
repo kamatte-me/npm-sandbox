@@ -21,9 +21,22 @@
       extends: ['schedule:monthly'],
       minimumReleaseAge: '3 days',
     },
+
+    // for auto release workflow
+    {
+      matchDepTypes: ['devDependencies'],
+      semanticCommitScope: 'deps-dev',
+    },
+    {
+      matchPackageNames: ['vite'],
+      matchUpdateTypes: ['major'],
+      addLabels: ['minor'],
+      semanticCommitType: 'build',
+    },
   ],
   lockFileMaintenance: {
     enabled: true,
+    semanticCommitScope: 'deps-dev',
   },
   vulnerabilityAlerts: {
     enabled: true,

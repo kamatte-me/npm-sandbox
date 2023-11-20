@@ -6,9 +6,23 @@
         "requiredStatusChecks": ["test", "lint", "typecheck", "build"]
       }
     ],
+    [
+      "omit-commits",
+      {
+        "subject": ["chore(deps-dev):"]
+      }
+    ],
     "npm",
-    "released"
+    [
+      "released",
+      {
+        "includeBotPrs": true
+      }
+    ]
   ],
+  "shipit": {
+    "noChangelog": true
+  },
   "author": {
     "name": "github-actions[bot]",
     "email": "41898282+github-actions[bot]@users.noreply.github.com"
