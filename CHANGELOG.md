@@ -1,3 +1,22 @@
+# v0.2.2 (Mon Nov 20 2023)
+
+#### 🐛 Bug Fix
+
+- chore(renovate): update renovate config [#35](https://github.com/kamatte-me/npm-sandbox/pull/35) ([@kamatte-me](https://github.com/kamatte-me))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): update dependency eslint-plugin-vitest to v0.3.10 [#34](https://github.com/kamatte-me/npm-sandbox/pull/34) ([@renovate[bot]](https://github.com/renovate[bot]))
+- chore(deps): update dependency @types/node to v20.9.2 [#33](https://github.com/kamatte-me/npm-sandbox/pull/33) ([@renovate[bot]](https://github.com/renovate[bot]))
+- chore(deps): update dependency eslint to v8.54.0 [#32](https://github.com/kamatte-me/npm-sandbox/pull/32) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- kamatte ([@kamatte-me](https://github.com/kamatte-me))
+
+---
+
 # v0.2.1 (Fri Nov 17 2023)
 
 #### 🐛 Bug Fix
