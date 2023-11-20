@@ -22,9 +22,10 @@
       minimumReleaseAge: '3 days',
     },
   ],
+  lockFileMaintenance: {
+    enabled: true,
+  },
   vulnerabilityAlerts: {
     enabled: true,
-    labels: ['security'],
-    automerge: true,
   },
 }
