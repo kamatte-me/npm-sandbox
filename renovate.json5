@@ -36,7 +36,7 @@
   ],
   lockFileMaintenance: {
     enabled: true,
-    semanticCommitScope: 'deps-dev',
+    semanticCommitScope: 'lockfile',
   },
   vulnerabilityAlerts: {
     enabled: true,
