@@ -12,12 +12,6 @@
       {
         "includeBotPrs": true
       }
-    ],
-    [
-      "omit-commits",
-      {
-        "subject": ["chore(deps-dev):"]
-      }
     ]
   ],
   "shipit": {
