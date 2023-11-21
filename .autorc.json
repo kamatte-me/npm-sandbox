@@ -8,11 +8,23 @@
     ],
     "npm",
     [
+      "omit-commits",
+      {
+        "subject": ["chore(deps-dev):", "chore(lockfile):"]
+      }
+    ],
+    [
       "released",
       {
         "includeBotPrs": true
       }
     ]
+  ],
+  "labels": [
+    {
+      "name": "skip-release",
+      "default": true
+    }
   ],
   "shipit": {
     "noChangelog": true
