@@ -43,12 +43,6 @@ module.exports = {
             },
           },
         ],
-        '@typescript-eslint/no-unnecessary-condition': [
-          'error',
-          {
-            allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
-          },
-        ],
         'import/no-useless-path-segments': 'error',
         'import/order': 'off', // for simple-import-sort plugin
         '@typescript-eslint/no-unused-vars': 'off', // for unused-imports plugin
