@@ -30,8 +30,8 @@ devDependencies:
     specifier: 3.0.0
     version: 3.0.0(eslint@8.55.0)
   eslint-plugin-vitest:
-    specifier: 0.3.16
-    version: 0.3.16(eslint@8.55.0)(typescript@5.3.3)(vitest@0.34.6)
+    specifier: 0.3.17
+    version: 0.3.17(eslint@8.55.0)(typescript@5.3.3)(vitest@0.34.6)
   prettier:
     specifier: 3.1.1
     version: 3.1.1
@@ -2672,8 +2672,8 @@ packages:
       eslint-rule-composer: 0.3.0
     dev: true
 
-  /eslint-plugin-vitest@0.3.16(eslint@8.55.0)(typescript@5.3.3)(vitest@0.34.6):
-    resolution: {integrity: sha512-gqsbIZYK0YTiWGyRG2CwAGNA50fuqLkNXGKK2lVmyjBbqBj+rKH7m3JhVQ31AkVX229JkW4vBu0u33PAi5OhTA==}
+  /eslint-plugin-vitest@0.3.17(eslint@8.55.0)(typescript@5.3.3)(vitest@0.34.6):
+    resolution: {integrity: sha512-JzljEhaJ3YDNJc4n2VTlOdMhElwLsQQprVtgY+eoKQkearKiFP53Vw3515J3jb4ZM8TVnpk7UsIFXM0gbhz+vQ==}
     engines: {node: ^18.0.0 || >= 20.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '*'
