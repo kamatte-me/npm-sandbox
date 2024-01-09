@@ -43,7 +43,7 @@
   "devDependencies": {
     "@auto-it/omit-commits": "11.0.4",
     "@auto-it/protected-branch": "11.0.4",
-    "@types/node": "20.10.7",
+    "@types/node": "20.10.8",
     "@vercel/style-guide": "5.1.0",
     "auto": "11.0.4",
     "eslint": "8.56.0",
