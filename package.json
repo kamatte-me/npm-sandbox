@@ -65,7 +65,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@8.15.2",
   "engines": {
     "node": ">=10.3.x"
   },
