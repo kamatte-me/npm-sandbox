@@ -48,7 +48,7 @@
     "auto": "11.0.4",
     "eslint": "8.56.0",
     "eslint-plugin-simple-import-sort": "10.0.0",
-    "eslint-plugin-unused-imports": "3.0.0",
+    "eslint-plugin-unused-imports": "3.1.0",
     "eslint-plugin-vitest": "0.3.22",
     "prettier": "3.2.5",
     "publint": "0.2.6",
