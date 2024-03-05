@@ -51,7 +51,7 @@
     "eslint-plugin-unused-imports": "3.1.0",
     "eslint-plugin-vitest": "0.3.22",
     "prettier": "3.2.5",
-    "publint": "0.2.6",
+    "publint": "0.2.7",
     "typescript": "5.3.3",
     "vite": "5.1.5",
     "vite-plugin-dts": "3.7.3",
