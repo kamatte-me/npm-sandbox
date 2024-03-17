@@ -1569,7 +1569,7 @@ packages:
       '@vue/shared': 3.4.21
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.0.2
+      source-map-js: 1.0.3
     dev: true
 
   /@vue/compiler-dom@3.4.21:
@@ -4424,7 +4424,7 @@ packages:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.0.0
-      source-map-js: 1.0.2
+      source-map-js: 1.0.3
     dev: true
 
   /prelude-ls@1.2.1:
@@ -4831,8 +4831,8 @@ packages:
       sort-object-keys: 1.1.3
     dev: true
 
-  /source-map-js@1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+  /source-map-js@1.0.3:
+    resolution: {integrity: sha512-H/5Vyeo/I1hqIdOS0m1Q63OPr0yFdZLaiVkr8ap/WyIVGdU3PyoOV/HXY8+PJE2M43+n11FY5zWQnNRNnD1UFg==}
     engines: {node: '>=0.10.0'}
     dev: true
 
