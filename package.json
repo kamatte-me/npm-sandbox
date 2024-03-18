@@ -44,7 +44,7 @@
     "@auto-it/omit-commits": "11.1.1",
     "@auto-it/protected-branch": "11.1.1",
     "@types/node": "20.11.28",
-    "@vercel/style-guide": "5.2.0",
+    "@vercel/style-guide": "6.0.0",
     "auto": "11.1.1",
     "eslint": "8.57.0",
     "eslint-plugin-simple-import-sort": "12.0.0",
