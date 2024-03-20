@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@auto-it/omit-commits':
-    specifier: 11.1.1
-    version: 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
+    specifier: 11.1.2
+    version: 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
   '@auto-it/protected-branch':
-    specifier: 11.1.1
-    version: 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
+    specifier: 11.1.2
+    version: 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
   '@types/node':
     specifier: 20.11.30
     version: 20.11.30
@@ -18,8 +18,8 @@ devDependencies:
     specifier: 6.0.0
     version: 6.0.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.2)(vitest@1.4.0)
   auto:
-    specifier: 11.1.1
-    version: 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
+    specifier: 11.1.2
+    version: 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -66,13 +66,13 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@auto-it/bot-list@11.1.1:
-    resolution: {integrity: sha512-uKZ08KC9FUjMBYqiizZ3VlXyEAeRHEAJaeNMqQFPi0jFKRtX/Dm4tAhDXqfQeuOuAsUHNh5Pp+4zOX2RmTPZaA==}
+  /@auto-it/bot-list@11.1.2:
+    resolution: {integrity: sha512-3OxS04InYbMT67JH+zZ9STgPgWNyyE5gfm14z/aKJIKjpSRCmtM+nNimsNgEUvaZsN8MOPNU7QJC5ixOfxwsSA==}
     engines: {node: '>=10.x'}
     dev: true
 
-  /@auto-it/core@11.1.1(@types/node@20.11.30)(typescript@5.4.2):
-    resolution: {integrity: sha512-CIQYqJG/pXmWsQjgbjMF6qnwAu7Klrpm5fWHrXpzIEq/3qQfgGmTkauuJRSz9bM5z6pHHCjT1eypVV/EDj9ijg==}
+  /@auto-it/core@11.1.2(@types/node@20.11.30)(typescript@5.4.2):
+    resolution: {integrity: sha512-Hg1/aQo11MPDBNeB6HGVO/Sp/RsDAJU5XoSIbimwiX65/3Nz5jam3HbgNSwmjZspgnspdQ9XfUITC5xTxOnY6w==}
     peerDependencies:
       '@types/node': '*'
       typescript: '>=2.7'
@@ -80,7 +80,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@auto-it/bot-list': 11.1.1
+      '@auto-it/bot-list': 11.1.2
       '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.2(cosmiconfig@7.0.0)(typescript@5.4.2)
       '@octokit/core': 3.6.0
       '@octokit/plugin-enterprise-compatibility': 1.3.0
@@ -129,11 +129,11 @@ packages:
       - supports-color
     dev: true
 
-  /@auto-it/npm@11.1.1(@types/node@20.11.30)(typescript@5.4.2):
-    resolution: {integrity: sha512-I7qWPdU2goCmqdvAEpa6yGwQmzx5YXEsZywqs6uTQXIDuGbFzNt/7jwJNt8p/MNE8M0ra8FJ05eHavBLFZuEfg==}
+  /@auto-it/npm@11.1.2(@types/node@20.11.30)(typescript@5.4.2):
+    resolution: {integrity: sha512-s0itO3ZgkQ+0G6eMuOlYw4C5tpBJ21egOYktcK2e2OfPLENiGnLU0PlX74u9m2+rNBiykNR/UJpzgwLCFPBD5g==}
     dependencies:
-      '@auto-it/core': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
-      '@auto-it/package-json-utils': 11.1.1
+      '@auto-it/core': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/package-json-utils': 11.1.2
       await-to-js: 3.0.0
       endent: 2.1.0
       env-ci: 5.5.0
@@ -155,10 +155,10 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/omit-commits@11.1.1(@types/node@20.11.30)(typescript@5.4.2):
-    resolution: {integrity: sha512-+oh0lSWBEvOcBIdkkU9ITSFz+JEnOmX6Y538WUfEegbljR0XMyOAj/LI/9NdtmuKkBKDTXJf247S+7LJGrvPHQ==}
+  /@auto-it/omit-commits@11.1.2(@types/node@20.11.30)(typescript@5.4.2):
+    resolution: {integrity: sha512-dqb510wys2gJrPtrkSoou0xd0qEgB+1WbvkxmX0qT0yQk8WWFjzs7VWntM5aFlYl7GlmmSdF8ShIzSIYJlYkeA==}
     dependencies:
-      '@auto-it/core': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/core': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
       fp-ts: 2.16.3
       io-ts: 2.2.21(fp-ts@2.16.3)
       tslib: 2.1.0
@@ -171,18 +171,18 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/package-json-utils@11.1.1:
-    resolution: {integrity: sha512-hk6wKuP7fPonXnP/blPHYS4iQaKZ6s+dVBRPSW7pjWZv6H/A131mWVSQC59nhe8lqZhbQ2MrDH4xxfhYnq21sA==}
+  /@auto-it/package-json-utils@11.1.2:
+    resolution: {integrity: sha512-R9YE/7jEBZzWkC/hc6Ju77iRGg9VnqYfIdj7oGkQq8jvbfvLxTm8g/BheBOvvVJuaY/C272Orvcw+3Pu+xtc+Q==}
     engines: {node: '>=10.x'}
     dependencies:
       parse-author: 2.0.0
       parse-github-url: 1.0.2
     dev: true
 
-  /@auto-it/protected-branch@11.1.1(@types/node@20.11.30)(typescript@5.4.2):
-    resolution: {integrity: sha512-Th9w7CyKKNYkJvXpEpIYnyF5anwFdhmjK69g/h2B4HHr9qgnHqtxvb8OA/AjEz0kqsvknWX2KaXwiw2IDq1HDA==}
+  /@auto-it/protected-branch@11.1.2(@types/node@20.11.30)(typescript@5.4.2):
+    resolution: {integrity: sha512-dGZ1eu7kn3a659sCSdLr5BiYM+uRKqn2kLEqnWF1OQSbp5HlJ0B0p1d0l4Xt8q+GmDUP/PQe+N2k7IixSKHQTQ==}
     dependencies:
-      '@auto-it/core': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/core': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
       '@octokit/rest': 18.12.0
       fp-ts: 2.16.3
       io-ts: 2.2.21(fp-ts@2.16.3)
@@ -196,11 +196,11 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/released@11.1.1(@types/node@20.11.30)(typescript@5.4.2):
-    resolution: {integrity: sha512-iRUebl2q5V7hFEgScGVUMUVoOXrFFi5O280hUCpZxmd6kkG2v7Kl+Weii5zKpd7YSqG0HibJCD+LVwPClAfrCA==}
+  /@auto-it/released@11.1.2(@types/node@20.11.30)(typescript@5.4.2):
+    resolution: {integrity: sha512-jhNznq+eNwzTitGwWeF6RQkR9yQRy6mKWFjZOK5jNnsiNaXYX1PJiJ/WCWMvXRromJOvcQQK8OoAzQN5s97+zw==}
     dependencies:
-      '@auto-it/bot-list': 11.1.1
-      '@auto-it/core': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/bot-list': 11.1.2
+      '@auto-it/core': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
       deepmerge: 4.3.1
       fp-ts: 2.16.3
       io-ts: 2.2.21(fp-ts@2.16.3)
@@ -214,10 +214,10 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/version-file@11.1.1(@types/node@20.11.30)(typescript@5.4.2):
-    resolution: {integrity: sha512-KHKunip2nXWKd7zJ0hdALojY+E6sTdmxuq9SXYgTMXUcZw2BtxunVSK1hb2wmS6iUH4CCILk12dHksAO5BFzeQ==}
+  /@auto-it/version-file@11.1.2(@types/node@20.11.30)(typescript@5.4.2):
+    resolution: {integrity: sha512-ZZnq1Svodd3SrNznYJqZ4SeMxxYoD14OFeH8yyGLFaDFwmIrDkoEOQWVbTSNU05rOQNJfi+OobSM89XV44MSCQ==}
     dependencies:
-      '@auto-it/core': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/core': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
       fp-ts: 2.16.3
       io-ts: 2.2.21(fp-ts@2.16.3)
       semver: 7.6.0
@@ -1781,15 +1781,15 @@ packages:
     engines: {node: '>=0.8'}
     dev: true
 
-  /auto@11.1.1(@types/node@20.11.30)(typescript@5.4.2):
-    resolution: {integrity: sha512-mOucdDWMjtuBDH8phH9Z0s1dD4uFrFIhYQ/Zh4wCH2uB3eEf8qZbu20DLOWCfj1zEUU2gxqVAuqJD4OyLWvaSQ==}
+  /auto@11.1.2(@types/node@20.11.30)(typescript@5.4.2):
+    resolution: {integrity: sha512-cE1Tt0dPPH1YhoOLoYlZscwFUl1xYOEgdICw5VLX9EUZZfWUpjWCBukKV+dYN5bJr353XOFr/GFR/kaL+j25sQ==}
     engines: {node: '>=10.x'}
     hasBin: true
     dependencies:
-      '@auto-it/core': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
-      '@auto-it/npm': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
-      '@auto-it/released': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
-      '@auto-it/version-file': 11.1.1(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/core': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/npm': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/released': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
+      '@auto-it/version-file': 11.1.2(@types/node@20.11.30)(typescript@5.4.2)
       await-to-js: 3.0.0
       chalk: 4.1.2
       command-line-application: 0.10.1
