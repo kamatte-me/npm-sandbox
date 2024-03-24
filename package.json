@@ -1,6 +1,6 @@
 {
   "name": "@kamatte-me/npm-sandbox",
-  "version": "0.6.0",
+  "version": "0.0.0",
   "description": "My sandbox project",
   "keywords": [],
   "homepage": "https://github.com/kamatte-me/npm-sandbox#readme",
@@ -41,11 +41,10 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@auto-it/omit-commits": "11.1.2",
-    "@auto-it/protected-branch": "11.1.2",
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.1",
     "@types/node": "20.11.30",
     "@vercel/style-guide": "6.0.0",
-    "auto": "11.1.2",
     "eslint": "8.57.0",
     "eslint-plugin-simple-import-sort": "12.0.0",
     "eslint-plugin-unused-imports": "3.1.0",
