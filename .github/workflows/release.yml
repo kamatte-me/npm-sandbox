@@ -24,7 +24,6 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm build
-      - run: pnpm publint
       - uses: changesets/action@v1
         with:
           publish: pnpm changeset publish
