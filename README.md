@@ -20,12 +20,19 @@ Build ESM / CJS package with TypeScript.
 
 1. Create a new GitHub repository
 2. Download this repository
-3. Modify the Changesets config in [`.changeset/config.json`](./.changeset/config.json)
+3. Modify the Release Workflow in [`.github/workflows/release.yml`](./.github/workflows/release.yml)
+   ```diff
+   - branches:
+   -   - main
+   + branches-ignore:
+   +   - '**'
+   ```
+4. Modify the Changesets config in [`.changeset/config.json`](./.changeset/config.json)
    ```diff
    - { "repo": "kamatte-me/npm-sandbox" }
    + { "repo": "<your-org>/<your-repo>" }
    ```
-4. Update the following package information in [`package.json`](./package.json)
+5. Update the following package information in [`package.json`](./package.json)
    - `name`
    - `version`: `0.0.0`
    - `description`
@@ -34,9 +41,9 @@ Build ESM / CJS package with TypeScript.
    - `repository`
    - `license`
    - `author`
-5. Update [`README.md`](./README.md)
-6. Update [`LICENSE`](./LICENSE)
-7. Push to GitHub
+6. Update [`README.md`](./README.md)
+7. Update [`LICENSE`](./LICENSE)
+8. Push to GitHub
    ```shell
    git init
    git add --all
@@ -45,19 +52,29 @@ Build ESM / CJS package with TypeScript.
    git remote add origin git@github.com:<user>/<repo>.git
    git push -u origin main
    ```
-8. Configure GitHub repository `Settings`
+9. Configure GitHub repository `Settings`
    - `Actions` > `General` > `Workflow permissions`
      - Enable `Read and write permissions`
      - Enable `Allow GitHub Actions to create and approve pull requests`
    - `Secrets and variables` > `Actions` > `New repository secret`
      - `NPM_TOKEN`: Your NPM Granular Access Token
-9. Install the following GitHub Apps
-   - [changeset-bot](https://github.com/apps/changeset-bot)
-   - [Renovate](https://github.com/settings/installations/32087651)
-   - [renovate-approve](https://github.com/settings/installations/32308587)
-10. **DEVELOP YOUR LIBRARY**
-    10.1. Before merging a pull request, either run `pnpm changeset` or follow the comments from changeset-bot on the PR, decide on the release type and write the release notes.
-    10.2. Confirm that the changeset-bot has commented `🦋 Changeset detected` on the pull request before merging.
-    10.3. Merge the pull request.
-11. First Publish 🎉
-    - Merge the pull request titled `Version Packages`.
+10. Install the following GitHub Apps
+    - [changeset-bot](https://github.com/apps/changeset-bot)
+    - [Renovate](https://github.com/settings/installations/32087651)
+    - [renovate-approve](https://github.com/settings/installations/32308587)
+11. **DEVELOP YOUR LIBRARY**
+12. First Release 🎉
+    1. Set the `version` in [`package.json`](./package.json)
+    2. Revert the [`.github/workflows/release.yml`](./.github/workflows/release.yml) changes
+
+### After First Release
+
+#### For each Pull Request
+
+1. Before merging a pull request, either run `pnpm changeset` or follow the comments from changeset-bot on the pull request, decide on the release type and write the release notes.
+2. Confirm that the changeset-bot has commented `🦋 Changeset detected` on the pull request before merging.
+3. Merge the pull request.
+
+#### For each release
+
+Merge the pull request titled `Version Packages`.
