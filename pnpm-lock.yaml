@@ -35,6 +35,9 @@ devDependencies:
   publint:
     specifier: 0.2.7
     version: 0.2.7
+  rollup-plugin-node-externals:
+    specifier: 7.1.1
+    version: 7.1.1(rollup@4.13.0)
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -43,7 +46,7 @@ devDependencies:
     version: 5.2.6(@types/node@20.11.30)
   vite-plugin-dts:
     specifier: 3.7.3
-    version: 3.7.3(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.6)
+    version: 3.7.3(@types/node@20.11.30)(rollup@4.13.0)(typescript@5.4.3)(vite@5.2.6)
   vitest:
     specifier: 1.4.0
     version: 1.4.0(@types/node@20.11.30)
@@ -874,7 +877,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@rollup/pluginutils@5.1.0:
+  /@rollup/pluginutils@5.1.0(rollup@4.13.0):
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -886,6 +889,7 @@ packages:
       '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
+      rollup: 4.13.0
     dev: true
 
   /@rollup/rollup-android-arm-eabi@4.13.0:
@@ -4262,6 +4266,15 @@ packages:
       glob: 7.2.3
     dev: true
 
+  /rollup-plugin-node-externals@7.1.1(rollup@4.13.0):
+    resolution: {integrity: sha512-rnIUt0zYdV05muRetoxOiFiKxrrfiyXuM/CgI+akv6NExBTaIiPkH2rCSE9JUCsjta1MXzQVAldpe5tJEszlwQ==}
+    engines: {node: '>= 21 || ^20.6.0 || ^18.19.0'}
+    peerDependencies:
+      rollup: ^3.0.0 || ^4.0.0
+    dependencies:
+      rollup: 4.13.0
+    dev: true
+
   /rollup@4.13.0:
     resolution: {integrity: sha512-3YegKemjoQnYKmsBlOHfMLVPPA5xLkQ8MHLLSw/fBrFaVkEayL51DilPpNNLq1exr98F2B1TzrV0FUlN3gWRPg==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -4904,7 +4917,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-dts@3.7.3(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.6):
+  /vite-plugin-dts@3.7.3(@types/node@20.11.30)(rollup@4.13.0)(typescript@5.4.3)(vite@5.2.6):
     resolution: {integrity: sha512-26eTlBYdpjRLWCsTJebM8vkCieE+p9gP3raf+ecDnzzK5E3FG6VE1wcy55OkRpfWWVlVvKkYFe6uvRHYWx7Nog==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -4915,7 +4928,7 @@ packages:
         optional: true
     dependencies:
       '@microsoft/api-extractor': 7.39.0(@types/node@20.11.30)
-      '@rollup/pluginutils': 5.1.0
+      '@rollup/pluginutils': 5.1.0(rollup@4.13.0)
       '@vue/language-core': 1.8.27(typescript@5.4.3)
       debug: 4.3.4
       kolorist: 1.8.0

@@ -1,6 +1,7 @@
 import { copyFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
+import { nodeExternals } from 'rollup-plugin-node-externals';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
@@ -13,6 +14,7 @@ export default defineConfig({
     emptyOutDir: true,
     minify: false,
     rollupOptions: {
+      plugins: [nodeExternals()],
       output: {
         preserveModules: true,
       },
