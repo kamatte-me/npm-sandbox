@@ -54,7 +54,6 @@ Build ESM / CJS package with TypeScript.
    ```
 9. Configure GitHub repository `Settings`
    - `Actions` > `General` > `Workflow permissions`
-     - Enable `Read and write permissions`
      - Enable `Allow GitHub Actions to create and approve pull requests`
    - `Secrets and variables` > `Actions` > `New repository secret`
      - `NPM_TOKEN`: Your NPM Granular Access Token

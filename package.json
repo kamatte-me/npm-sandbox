@@ -32,8 +32,10 @@
   ],
   "scripts": {
     "build": "vite build",
+    "ci:publish": "changeset publish",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "prepublishOnly": "pnpm build",
     "prettier": "prettier . --check",
     "prettier:fix": "prettier . --write",
     "publint": "publint",
