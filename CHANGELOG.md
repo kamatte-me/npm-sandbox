@@ -1,5 +1,11 @@
 # @kamatte-me/npm-sandbox
 
+## 0.7.4
+
+### Patch Changes
+
+- [#222](https://github.com/kamatte-me/npm-sandbox/pull/222) [`61f0a8b`](https://github.com/kamatte-me/npm-sandbox/commit/61f0a8ba322e2dfba799883b435754bec5f1253a) Thanks [@kamatte-me](https://github.com/kamatte-me)! - Release test
+
 ## 0.7.3
 
 ### Patch Changes
