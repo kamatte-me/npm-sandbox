@@ -39,8 +39,8 @@ importers:
         specifier: 0.2.7
         version: 0.2.7
       rollup-plugin-node-externals:
-        specifier: 7.1.1
-        version: 7.1.1(rollup@4.16.0)
+        specifier: 7.1.2
+        version: 7.1.2(rollup@4.16.0)
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -2299,8 +2299,8 @@ packages:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
     hasBin: true
 
-  rollup-plugin-node-externals@7.1.1:
-    resolution: {integrity: sha512-rnIUt0zYdV05muRetoxOiFiKxrrfiyXuM/CgI+akv6NExBTaIiPkH2rCSE9JUCsjta1MXzQVAldpe5tJEszlwQ==}
+  rollup-plugin-node-externals@7.1.2:
+    resolution: {integrity: sha512-cVJFKs+ulZxpMmn/s+oi431d93Jq5+G7Sc5ixWDrL2k+Gj+MqXg0KMNWgKf8Mw5qpaG4jVDpsvuqFfiCvRcGeA==}
     engines: {node: '>= 21 || ^20.6.0 || ^18.19.0'}
     peerDependencies:
       rollup: ^3.0.0 || ^4.0.0
@@ -5385,7 +5385,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rollup-plugin-node-externals@7.1.1(rollup@4.16.0):
+  rollup-plugin-node-externals@7.1.2(rollup@4.16.0):
     dependencies:
       rollup: 4.16.0
 
