@@ -51,7 +51,7 @@
     "eslint-plugin-unused-imports": "3.2.0",
     "eslint-plugin-vitest": "0.4.1",
     "prettier": "3.2.5",
-    "publint": "0.2.7",
+    "publint": "0.2.8",
     "rollup-plugin-node-externals": "7.1.2",
     "typescript": "5.4.5",
     "vite": "5.2.11",
