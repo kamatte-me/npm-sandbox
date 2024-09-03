@@ -45,11 +45,11 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
       vite:
-        specifier: 5.4.2
-        version: 5.4.2(@types/node@20.16.3)
+        specifier: 5.4.3
+        version: 5.4.3(@types/node@20.16.3)
       vite-plugin-dts:
         specifier: 3.9.1
-        version: 3.9.1(@types/node@20.16.3)(rollup@4.21.2)(typescript@5.5.4)(vite@5.4.2(@types/node@20.16.3))
+        version: 3.9.1(@types/node@20.16.3)(rollup@4.21.2)(typescript@5.5.4)(vite@5.4.3(@types/node@20.16.3))
       vitest:
         specifier: 2.0.5
         version: 2.0.5(@types/node@20.16.3)
@@ -2037,8 +2037,8 @@ packages:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
     engines: {node: '>= 0.4'}
 
-  postcss@8.4.42:
-    resolution: {integrity: sha512-hywKUQB9Ra4dR1mGhldy5Aj1X3MWDSIA1cEi+Uy0CjheLvP6Ual5RlwMCh8i/X121yEDLDIKBsrCQ8ba3FDMfQ==}
+  postcss@8.4.44:
+    resolution: {integrity: sha512-Aweb9unOEpQ3ezu4Q00DPvvM2ZTUitJdNKeP/+uQgr1IBIqu574IaZoURId7BKtWMREwzKa9OgzPzezWGPWFQw==}
     engines: {node: ^10 || ^12 || >=14}
 
   preferred-pm@3.1.4:
@@ -2496,8 +2496,8 @@ packages:
       vite:
         optional: true
 
-  vite@5.4.2:
-    resolution: {integrity: sha512-dDrQTRHp5C1fTFzcSaMxjk6vdpKvT+2/mIdE07Gw2ykehT49O0z/VHS3zZ8iV/Gh8BJJKHWOe5RjaNrW5xf/GA==}
+  vite@5.4.3:
+    resolution: {integrity: sha512-IH+nl64eq9lJjFqU+/yrRnrHPVTlgy42/+IzbOdaFDVlyLgI/wDlf+FCobXLX1cT0X5+7LMyH1mIy2xJdLfo8Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -4928,7 +4928,7 @@ snapshots:
 
   possible-typed-array-names@1.0.0: {}
 
-  postcss@8.4.42:
+  postcss@8.4.44:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.0.1
@@ -5403,7 +5403,7 @@ snapshots:
       debug: 4.3.6
       pathe: 1.1.2
       tinyrainbow: 1.2.0
-      vite: 5.4.2(@types/node@20.16.3)
+      vite: 5.4.3(@types/node@20.16.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5415,7 +5415,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@3.9.1(@types/node@20.16.3)(rollup@4.21.2)(typescript@5.5.4)(vite@5.4.2(@types/node@20.16.3)):
+  vite-plugin-dts@3.9.1(@types/node@20.16.3)(rollup@4.21.2)(typescript@5.5.4)(vite@5.4.3(@types/node@20.16.3)):
     dependencies:
       '@microsoft/api-extractor': 7.43.0(@types/node@20.16.3)
       '@rollup/pluginutils': 5.1.0(rollup@4.21.2)
@@ -5426,16 +5426,16 @@ snapshots:
       typescript: 5.5.4
       vue-tsc: 1.8.27(typescript@5.5.4)
     optionalDependencies:
-      vite: 5.4.2(@types/node@20.16.3)
+      vite: 5.4.3(@types/node@20.16.3)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@5.4.2(@types/node@20.16.3):
+  vite@5.4.3(@types/node@20.16.3):
     dependencies:
       esbuild: 0.21.5
-      postcss: 8.4.42
+      postcss: 8.4.44
       rollup: 4.21.2
     optionalDependencies:
       '@types/node': 20.16.3
@@ -5459,7 +5459,7 @@ snapshots:
       tinybench: 2.9.0
       tinypool: 1.0.1
       tinyrainbow: 1.2.0
-      vite: 5.4.2(@types/node@20.16.3)
+      vite: 5.4.3(@types/node@20.16.3)
       vite-node: 2.0.5(@types/node@20.16.3)
       why-is-node-running: 2.3.0
     optionalDependencies:
