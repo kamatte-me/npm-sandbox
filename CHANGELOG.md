@@ -1,5 +1,11 @@
 # @kamatte-me/npm-sandbox
 
+## 0.7.6
+
+### Patch Changes
+
+- [#462](https://github.com/kamatte-me/npm-sandbox/pull/462) [`2694ad6`](https://github.com/kamatte-me/npm-sandbox/commit/2694ad661289e0ca5238646c00ee51245a5423dd) Thanks [@kamatte-me](https://github.com/kamatte-me)! - ci: ESLint/Prettier to Biome
+
 ## 0.7.5
 
 ### Patch Changes
