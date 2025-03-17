@@ -45,7 +45,7 @@
     "@changesets/changelog-github": "0.5.1",
     "@changesets/cli": "2.27.12",
     "@types/node": "22.13.10",
-    "publint": "0.3.2",
+    "publint": "0.3.9",
     "rollup-plugin-node-externals": "8.0.0",
     "typescript": "5.7.3",
     "vite": "6.2.2",
