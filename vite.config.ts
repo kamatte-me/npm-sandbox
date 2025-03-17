@@ -14,13 +14,13 @@ export default defineConfig({
     emptyOutDir: true,
     minify: false,
     rollupOptions: {
-      plugins: [nodeExternals()],
       output: {
         preserveModules: true,
       },
     },
   },
   plugins: [
+    nodeExternals(),
     dts({
       rollupTypes: true,
       afterBuild: () => {
