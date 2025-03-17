@@ -7,17 +7,19 @@ on:
       - next
   pull_request:
 
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: corepack enable
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
-          node-version-file: '.node-version'
+          node-version-file: .node-version
           cache: pnpm
       - run: pnpm install
       - run: pnpm test
@@ -26,10 +28,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: corepack enable
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
-          node-version-file: '.node-version'
+          node-version-file: .node-version
           cache: pnpm
       - run: pnpm install
       - run: pnpm lint
@@ -39,10 +41,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: corepack enable
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
-          node-version-file: '.node-version'
+          node-version-file: .node-version
           cache: pnpm
       - run: pnpm install
       - run: pnpm typecheck
@@ -51,10 +53,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: corepack enable
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
-          node-version-file: '.node-version'
+          node-version-file: .node-version
           cache: pnpm
       - run: pnpm install
       - run: pnpm build
