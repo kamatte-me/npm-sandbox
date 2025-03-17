@@ -9,8 +9,7 @@ Build ESM / CJS package with TypeScript.
 - pnpm
 - Vite
 - Vitest
-- ESLint
-- Prettier
+- Biome
 - Renovate
 - GitHub Actions
 - [Changesets](https://github.com/changesets/changesets)
