@@ -21,8 +21,8 @@ importers:
         specifier: 22.13.10
         version: 22.13.10
       publint:
-        specifier: 0.3.2
-        version: 0.3.2
+        specifier: 0.3.9
+        version: 0.3.9
       rollup-plugin-node-externals:
         specifier: 8.0.0
         version: 8.0.0(rollup@4.36.0)
@@ -997,8 +997,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  publint@0.3.2:
-    resolution: {integrity: sha512-fPs7QUbUvwixxPYUUTn0Kqp0rbH5rbiAOZwQOXMkIj+4Nopby1AngodSQmzTkJWTJ5R4uVV8oYmgVIjj+tgv1w==}
+  publint@0.3.9:
+    resolution: {integrity: sha512-irTwfRfYW38vomkxxoiZQtFtUOQKpz5m0p9Z60z4xpXrl1KmvSrX1OMARvnnolB5usOXeNfvLj6d/W3rwXKfBQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2236,7 +2236,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  publint@0.3.2:
+  publint@0.3.9:
     dependencies:
       '@publint/pack': 0.1.2
       package-manager-detector: 0.2.11
