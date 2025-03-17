@@ -1,4 +1,0 @@
-pnpm-lock.yaml
-
-.changeset/*.md
-!.changeset/README.md

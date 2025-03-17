@@ -34,8 +34,7 @@ jobs:
           node-version-file: .node-version
           cache: pnpm
       - run: pnpm install
-      - run: pnpm lint
-      - run: pnpm prettier
+      - run: pnpm lint:ci
 
   typecheck:
     runs-on: ubuntu-latest
