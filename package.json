@@ -49,7 +49,7 @@
     "publint": "0.3.12",
     "rollup-plugin-node-externals": "8.0.0",
     "typescript": "5.8.2",
-    "vite": "6.3.4",
+    "vite": "6.3.5",
     "vite-plugin-dts": "4.5.3",
     "vitest": "3.1.2"
   },
