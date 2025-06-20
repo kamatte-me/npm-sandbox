@@ -27,7 +27,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build",
     "lint": "biome check .",
@@ -42,7 +44,7 @@
     "changeset:publish": "pnpm build && changeset publish"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.0",
     "@changesets/changelog-github": "0.5.1",
     "@changesets/cli": "2.29.4",
     "@types/node": "22.15.32",
