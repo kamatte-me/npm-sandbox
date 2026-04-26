@@ -24,8 +24,8 @@ importers:
         specifier: 0.3.18
         version: 0.3.18
       rollup-plugin-node-externals:
-        specifier: 8.1.2
-        version: 8.1.2(rollup@4.60.2)
+        specifier: 9.0.1
+        version: 9.0.1(rollup@4.60.2)(vite@7.3.2(@types/node@22.19.15))
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -1129,11 +1129,17 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rollup-plugin-node-externals@8.1.2:
-    resolution: {integrity: sha512-EuB6/lolkMLK16gvibUjikERq5fCRVIGwD2xue/CrM8D0pz5GXD2V6N8IrgxegwbcUoKkUFI8VYCEEv8MMvgpA==}
-    engines: {node: '>= 21 || ^20.6.0 || ^18.19.0'}
+  rollup-plugin-node-externals@9.0.1:
+    resolution: {integrity: sha512-Yp91CX1ebDA8s4+BY7bOOdhF8VRR1XAKnSsHeVhYg4DW4MRXPsF4F2FnSsN9ghJgFhHl3L1uyK7A9NA/SF4Zgw==}
+    engines: {node: '>= 24'}
     peerDependencies:
       rollup: ^4.0.0
+      vite: '>=5.0.0'
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+      vite:
+        optional: true
 
   rollup@4.60.2:
     resolution: {integrity: sha512-J9qZyW++QK/09NyN/zeO0dG/1GdGfyp9lV8ajHnRVLfo/uFsbji5mHnDgn/qYdUHyCkM2N+8VyspgZclfAh0eQ==}
@@ -2392,9 +2398,10 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rollup-plugin-node-externals@8.1.2(rollup@4.60.2):
-    dependencies:
+  rollup-plugin-node-externals@9.0.1(rollup@4.60.2)(vite@7.3.2(@types/node@22.19.15)):
+    optionalDependencies:
       rollup: 4.60.2
+      vite: 7.3.2(@types/node@22.19.15)
 
   rollup@4.60.2:
     dependencies:
